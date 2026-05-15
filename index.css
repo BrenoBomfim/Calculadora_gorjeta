@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+input {
+  all:unset;
+}
+
+button {
+  all:unset;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+p,
+span {
+  font-size: 1rem;
+}
+
+.small {
+  font-size: 0.875rem;
+}
+
+body {
+  display: flex;
+  padding: 0 4rem;
+  background-color: #232323;
+  color: white;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container {
+  width: 50%;
+  margin-top: 12rem;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.block {
+  display: block;
+}
+
+.calculate-input {
+  background-color: #2E2E2E;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 2px solid #424242;
+}
+
+.primary {
+  background-color: #1c7ed6;
+  padding: 0.750rem;
+  border-radius: 0.25rem;
+  
+}
+
+button {
+  transition: 1s all;
+  opacity: 0.95;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 1s all;
+}
+
+.card {
+  background-color: #2E2E2E;
+  padding: 3rem;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+  }
